@@ -14,18 +14,6 @@ menuToggleBtn.addEventListener('click', function(){
   }
 });
 
-// menu 영어 -> 한국어
-const menuChange = document.querySelector('.item');
-const menuEng = document.querySelector('.eng');
-let isChange = false;
-menuChange.addEventListener('click', function(){
-  isChange = !isChange;
-  if(isChange){
-    menuEng.classList.add('change');
-  } else{
-    menuEng.classList.remove('change');
-  }
-});
 
 // Main slide for Swiper-Slider
 new Swiper('.main-slide .swiper', {

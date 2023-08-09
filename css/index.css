@@ -48,29 +48,30 @@ header #gnb-pc{display: none;}
 
 /* Secion2 */
 .tea{width: 100%; padding: 30px 20px; background: #f5eee8;}
-.tea h2{font-size: 20px; font-weight: bold; text-align: center; margin-bottom: 30px;}
+.tea h2{font-size: 1.25rem/*20px*/; font-weight: bold; text-align: center; margin-bottom: 30px;}
 .tea .tea-inner{margin-bottom: 30px; display: flex; flex-flow: column; align-items: center; width: 100%;}
 .tea .tea-inner img{width: 60%; margin: auto;}
-.tea .tea-inner h3{text-align: center; margin: 20px 0; font-size: 20px;}
-.tea .tea-inner > p{font-size: 15px; text-align: center;}
+.tea .tea-inner h3{text-align: center; margin: 20px 0; font-size: 1.25rem/*20px*/;}
+.tea .tea-inner > p{font-size: 0.938rem/*15px*/; text-align: center;}
 .btn{margin-top: 20px; border: 1px solid #983B43; padding: 5px; border-radius: 5px;}
 .btn > a{display: block; width: 100%; display: flex; justify-content: space-between;}
-.btn > a > p{font-size: 15px; margin-right: 10px; color: #983B43;}
-.btn > a > div{font-size: 18px; margin-top: 2px; color: #983B43;}
+.btn > a > p{font-size: 0.938rem/*15px*/; margin-right: 10px; color: #983B43;}
+.btn > a > div{font-size: 1.125rem/*18px*/; margin-top: 2px; color: #983B43;}
 
 /* Section3 */
 .hide{display: none;}
 .more{width: 100%; display: flex; flex-flow: column;align-items: center; background: url(../images/more-bg.png) no-repeat top center; background-size: 100% 20%;}
-.more h2{font-size: 20px; font-weight: bold; margin: 20px 0 10px 0;}
-.more > p{font-size: 8px; text-align: center;}
+.more h2{font-size: 1.25rem/*20px*/; font-weight: bold; margin: 20px 0 10px 0;}
+.more > p{font-size: 0.5rem/*8px*/; text-align: center;}
 .more .order-img{margin-top: 10px;}
+.more #moreBtn{cursor: pointer;}
 
 /* Hide 영역 */
 .more .step{padding: 10px 20px; width: 100%;}
 .more .step .more_txt{display: flex; flex-flow: row wrap; justify-content: space-between; width: 100%; padding: 10px 20px;}
-.more .step .more_txt span{display: block; font-size: 18px;}
-.more .step .more_txt h3{font-size: 20px; font-weight: bold;}
-.more .step .more_txt p{width: 100%; margin: 5px 0 10px 0; font-size: 12px; text-align: right;}
+.more .step .more_txt span{display: block; font-size: 1.125rem/*18px*/;}
+.more .step .more_txt h3{font-size: 1.25rem/*20px*/; font-weight: bold;}
+.more .step .more_txt p{width: 100%; margin: 5px 0 10px 0; font-size: 0.75rem/*12px*/; text-align: right;}
 
 .more .step1 .order-tea{display: flex; flex-flow: row wrap; justify-content: center;}
 .more .step1 .order-tea img{display: block; width: 15%; margin: 0 20px;}
@@ -98,7 +99,7 @@ header #gnb-pc{display: none;}
 .banner-slide .swiper-prev,
 .banner-slide .swiper-next{width: 60px; height: 60px; position: absolute; top: 0; bottom: 0; margin: auto; z-index: 1; display: flex; justify-content: center; align-items: center; cursor: pointer;}
 .banner-slide .swiper-prev div,
-.banner-slide .swiper-next div{font-size: 30px;}
+.banner-slide .swiper-next div{font-size: 1.875rem/*30px*/;}
 
 .banner-slide .swiper-prev{left: -15px;}
 .banner-slide .swiper-next{right: -15px;}
@@ -134,7 +135,7 @@ footer .foot-address li{font-size: 0.625rem/*10px*/; text-align: center;}
   /* footer */
   footer{display: flex;}
   footer .foot-left{display: block; width: 30%; background: #575757; display: flex; flex-wrap: wrap; justify-content: right; align-items: center;}
-  footer .foot-left p{font-size: 10px; color: #fff; text-align: right;}
+  footer .foot-left p{font-size: 0.625rem/*10px*/; color: #fff; text-align: right;}
 
   footer .foot-right{width: 70%;}
   footer .foot-right .foot-nav{justify-content: left;}
