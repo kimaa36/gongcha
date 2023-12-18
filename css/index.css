@@ -24,19 +24,19 @@ header #gnb-pc{display: none;}
 .menu-toggle-btn.active #three{transform: translateY(-9px) rotate(-45deg);}
 
 /* 모바일 nav */
-#gnb-mo{position: fixed; width: 320px; height: 100%; top: 0; left: -320px; z-index: 20; background: #ff6f61; transition: all 0.3s ease-in-out;} 
+#gnb-mo{position: fixed; width: 320px; height: 100%; top: 0; left: -320px; z-index: 20; background: #f5eee8; transition: all 0.3s ease-in-out;} 
 
 /* nav js */
 #gnb-mo.show{left: 0;}
 
-#gnb-mo .mainMenu > li.item{border-top: 1px solid #ef584a; overflow: hidden;} 
-#gnb-mo .mainMenu > li a{display: block; padding: 15px 20px; color: #fff; position: relative;}
+#gnb-mo .mainMenu > li.item{border-bottom: 1px solid #983B43; overflow: hidden;} 
+#gnb-mo .mainMenu > li a{display: block; padding: 15px 20px; color: #333; position: relative;}
 
 /* 삼각형 */
-#gnb-mo .mainMenu > li > a::before{content: ''; position: absolute; right: 15px; bottom: -10px; width: 0px; height: 0px; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 10px solid #ff6f61; z-index: 10;}
+#gnb-mo .mainMenu > li > a::before{content: ''; position: absolute; right: 15px; bottom: -10px; width: 0px; height: 0px; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 10px solid #f5eee8; z-index: 10;}
 
 #gnb-mo .mainMenu > li > .subMenu{background: #273057; transition: max-height 0.7s; max-height: 0;} 
-#gnb-mo .mainMenu > li > .subMenu li a{display: block; text-indent: 10px; transition: all 0.3s ease-in-out;}
+#gnb-mo .mainMenu > li > .subMenu li a{display: block; text-indent: 10px; transition: all 0.3s ease-in-out; color: #fff;}
 #gnb-mo .mainMenu > li > .subMenu li a:hover{background: #6b78b3;}
 
 #gnb-mo .mainMenu > li:target .subMenu{max-height: 500px;}
@@ -57,6 +57,9 @@ header #gnb-pc{display: none;}
 .btn > a{display: block; width: 100%; display: flex; justify-content: space-between;}
 .btn > a > p{font-size: 0.938rem/*15px*/; margin-right: 10px; color: #983B43;}
 .btn > a > div{font-size: 1.125rem/*18px*/; margin-top: 2px; color: #983B43;}
+.btn:hover {background: #983B43;}
+.btn:hover > a > p {color: #fff;}
+.btn:hover > a > div {color: #fff;}
 
 /* Section3 */
 .hide{display: none;}
@@ -162,6 +165,7 @@ footer .foot-address li{font-size: 0.625rem/*10px*/; text-align: center;}
   header .main-menu li.item{padding: 10px 20px; margin-top: 7px;}
   header .main-menu li.item .item__contents{width: 100%; height: 150px; background: rgba(255,255,255,0.5); position: fixed; z-index: 5; left: 0; top: 65px; display: none;}
   header .main-menu li.item:hover .item__contents{display: block;}
+  header .main-menu li.item .item__name:hover {text-decoration: underline;}
 
   header .main-menu li.item .item__contents .contents__menu{width: 1200px; margin: auto; position: relative;}
   header .main-menu li.item .item__contents .contents__menu .pc-inner{width: 600px; position: absolute; right: 100px; display: flex; top: 50px; justify-content: space-between;}
